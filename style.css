@@ -47,14 +47,16 @@ h2{
    }
    .description img{
       width: 80px;
-      height: 200px;
-   
+      height: 200px;  
    }
+ 
  }
  
  /* Styles for phone screens (max-width: 767px) */
  @media only screen and (max-width: 767px) {
-   /* Add your phone-specific styles here */
+   .services-container .services-box p {
+      display:hidden;
+   }
  }
 #carouselExampleSlidesOnly{
    margin-left: 5px;
